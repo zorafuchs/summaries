@@ -29,3 +29,9 @@ Example for a validated input:
     </div>
 </div>
 ```
+
+Make form accessible in the component:
+```html
+<form #heroForm="ngForm"  *ngIf="active"  (ngSubmit)="onSubmit()">
+```
+
